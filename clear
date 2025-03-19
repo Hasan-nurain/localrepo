@@ -1,0 +1,132 @@
+[1mdiff --git a/.vscode/c_cpp_properties.json b/.vscode/c_cpp_properties.json[m
+[1mdeleted file mode 100644[m
+[1mindex f912847..0000000[m
+[1m--- a/.vscode/c_cpp_properties.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,18 +0,0 @@[m
+[31m-{[m
+[31m-  "configurations": [[m
+[31m-    {[m
+[31m-      "name": "windows-gcc-x86",[m
+[31m-      "includePath": [[m
+[31m-        "${workspaceFolder}/**"[m
+[31m-      ],[m
+[31m-      "compilerPath": "C:/MinGW/bin/gcc.exe",[m
+[31m-      "cStandard": "${default}",[m
+[31m-      "cppStandard": "${default}",[m
+[31m-      "intelliSenseMode": "windows-gcc-x86",[m
+[31m-      "compilerArgs": [[m
+[31m-        ""[m
+[31m-      ][m
+[31m-    }[m
+[31m-  ],[m
+[31m-  "version": 4[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/.vscode/launch.json b/.vscode/launch.json[m
+[1mdeleted file mode 100644[m
+[1mindex c65f0e2..0000000[m
+[1m--- a/.vscode/launch.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,24 +0,0 @@[m
+[31m-{[m
+[31m-  "version": "0.2.0",[m
+[31m-  "configurations": [[m
+[31m-    {[m
+[31m-      "name": "C/C++ Runner: Debug Session",[m
+[31m-      "type": "cppdbg",[m
+[31m-      "request": "launch",[m
+[31m-      "args": [],[m
+[31m-      "stopAtEntry": false,[m
+[31m-      "externalConsole": true,[m
+[31m-      "cwd": "c:/DS",[m
+[31m-      "program": "c:/DS/build/Debug/outDebug",[m
+[31m-      "MIMode": "gdb",[m
+[31m-      "miDebuggerPath": "gdb",[m
+[31m-      "setupCommands": [[m
+[31m-        {[m
+[31m-          "description": "Enable pretty-printing for gdb",[m
+[31m-          "text": "-enable-pretty-printing",[m
+[31m-          "ignoreFailures": true[m
+[31m-        }[m
+[31m-      ][m
+[31m-    }[m
+[31m-  ][m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/.vscode/settings.json b/.vscode/settings.json[m
+[1mdeleted file mode 100644[m
+[1mindex bb879da..0000000[m
+[1m--- a/.vscode/settings.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,59 +0,0 @@[m
+[31m-{[m
+[31m-  "C_Cpp_Runner.cCompilerPath": "gcc",[m
+[31m-  "C_Cpp_Runner.cppCompilerPath": "g++",[m
+[31m-  "C_Cpp_Runner.debuggerPath": "gdb",[m
+[31m-  "C_Cpp_Runner.cStandard": "",[m
+[31m-  "C_Cpp_Runner.cppStandard": "",[m
+[31m-  "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",[m
+[31m-  "C_Cpp_Runner.useMsvc": false,[m
+[31m-  "C_Cpp_Runner.warnings": [[m
+[31m-    "-Wall",[m
+[31m-    "-Wextra",[m
+[31m-    "-Wpedantic",[m
+[31m-    "-Wshadow",[m
+[31m-    "-Wformat=2",[m
+[31m-    "-Wcast-align",[m
+[31m-    "-Wconversion",[m
+[31m-    "-Wsign-conversion",[m
+[31m-    "-Wnull-dereference"[m
+[31m-  ],[m
+[31m-  "C_Cpp_Runner.msvcWarnings": [[m
+[31m-    "/W4",[m
+[31m-    "/permissive-",[m
+[31m-    "/w14242",[m
+[31m-    "/w14287",[m
+[31m-    "/w14296",[m
+[31m-    "/w14311",[m
+[31m-    "/w14826",[m
+[31m-    "/w44062",[m
+[31m-    "/w44242",[m
+[31m-    "/w14905",[m
+[31m-    "/w14906",[m
+[31m-    "/w14263",[m
+[31m-    "/w44265",[m
+[31m-    "/w14928"[m
+[31m-  ],[m
+[31m-  "C_Cpp_Runner.enableWarnings": true,[m
+[31m-  "C_Cpp_Runner.warningsAsError": false,[m
+[31m-  "C_Cpp_Runner.compilerArgs": [],[m
+[31m-  "C_Cpp_Runner.linkerArgs": [],[m
+[31m-  "C_Cpp_Runner.includePaths": [],[m
+[31m-  "C_Cpp_Runner.includeSearch": [[m
+[31m-    "*",[m
+[31m-    "**/*"[m
+[31m-  ],[m
+[31m-  "C_Cpp_Runner.excludeSearch": [[m
+[31m-    "**/build",[m
+[31m-    "**/build/**",[m
+[31m-    "**/.*",[m
+[31m-    "**/.*/**",[m
+[31m-    "**/.vscode",[m
+[31m-    "**/.vscode/**"[m
+[31m-  ],[m
+[31m-  "C_Cpp_Runner.useAddressSanitizer": false,[m
+[31m-  "C_Cpp_Runner.useUndefinedSanitizer": false,[m
+[31m-  "C_Cpp_Runner.useLeakSanitizer": false,[m
+[31m-  "C_Cpp_Runner.showCompilationTime": false,[m
+[31m-  "C_Cpp_Runner.useLinkTimeOptimization": false,[m
+[31m-  "C_Cpp_Runner.msvcSecureNoWarnings": false[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/xml.html b/xml.html[m
+[1mindex ba1365a..6bc3134 100644[m
+[1m--- a/xml.html[m
+[1m+++ b/xml.html[m
+[36m@@ -1,2 +1,2 @@[m
+ <p>this is a neaw repo</p>[m
+[31m-<p>this is the new feature (choice button)</p>[m
+\ No newline at end of file[m
+[32m+[m[32m<p>this is the new feature (dropdown)</p>[m
+\ No newline at end of file[m
